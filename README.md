@@ -20,3 +20,15 @@
   the client talk to the docker engine, which handles container and registry provide the images together they make it
   easy to build run and manage applicationn in container.
 
+# what is Docker file ?
+ a docker file is a simple text file with a set of instructions to build a docker image.
+
+# what is docker image ?
+ A Docker image is a single file that contains all the necessary dependencies, 
+ libraries, and the program itself, so it can run anywhere without needing additional setup.
+
+# Docker registry 
+  A Docker registry is a place where Docker images are stored and shared. It allows you to upload, download, and manage Docker images.
+
+# 
+
