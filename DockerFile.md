@@ -50,6 +50,16 @@ CMD ["npm", "start"] instruction in a Dockerfile specifies the default command t
 
 # it is my docker file 
  
+FROM node:16   # Use a Node.js base image
+
+WORKDIR /app   # Set the working directory inside the container
+
+COPY . .       # Copy all files from the current directory to /app in the container
+
+EXPOSE 3000    # Document that the app listens on port 3000
+
+CMD ["npm", "start"]  # Run "npm start" when the container starts
+
 
 
 
